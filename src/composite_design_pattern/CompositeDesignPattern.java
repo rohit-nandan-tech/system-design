@@ -5,6 +5,7 @@ public class CompositeDesignPattern {
         FileSystem file1 = new File("file1");
         FileSystem file2 = new File("file2");
 
+
         Folder folder = new Folder("folder");
 
         folder.add(file1);
