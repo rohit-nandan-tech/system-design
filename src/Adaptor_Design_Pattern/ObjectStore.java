@@ -14,6 +14,7 @@ public class ObjectStore {
 
         mediaPlayerEnumMediaPlayerMap.put(MediaPlayerEnum.MP3, new Mp3MediaPlayer());
         mediaPlayerEnumMediaPlayerMap.put(MediaPlayerEnum.MP4, new Mp4MediaPlayer());
+        mediaPlayerEnumMediaPlayerMap.put(MediaPlayerEnum.LEGACY, new LegacyVideoAdapter()); //actual logic of adaptor design pattern
 
         return mediaPlayerEnumMediaPlayerMap;
     }
