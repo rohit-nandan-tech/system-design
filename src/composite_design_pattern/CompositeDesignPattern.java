@@ -13,7 +13,7 @@ public class CompositeDesignPattern {
 
         folder.remove(file1);
 
-
+        
         folder.showDetail();
     }
 }
