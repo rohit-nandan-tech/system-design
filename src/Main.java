@@ -15,24 +15,24 @@ public class Main {
 
 
         //<----- State design pattern Order State----------->
-//        Order order = new Order("Anushka");
-//        order.trackOrder();
-//        order.nextState();
-//        order.nextState();
-//        order.trackOrder();
-//        order.nextState();
-//        order.cancelState();
+        Order order = new Order("Anushka");
+        order.trackOrder();
+        order.nextState();
+        order.nextState();
+        order.trackOrder();
+        order.nextState();
+        order.cancelState();
 
         //<----- chain of responsibility vending machine----------->
 
-        List<String> items = List.of("Coke", "Biscuit", "Juice", "Water");
-        VendingMachine vendingMachine = new VendingMachine(items);
-
-        vendingMachine.pressingButton();
-        vendingMachine.insertingCoin();
-        vendingMachine.selectingItem("choco");
-        vendingMachine.selectingItem("Coke");
-        vendingMachine.dispensingItem();
+//        List<String> items = List.of("Coke", "Biscuit", "Juice", "Water");
+//        VendingMachine vendingMachine = new VendingMachine(items);
+//
+//        vendingMachine.pressingButton();
+//        vendingMachine.insertingCoin();
+//        vendingMachine.selectingItem("choco");
+//        vendingMachine.selectingItem("Coke");
+//        vendingMachine.dispensingItem();
 
 
 
