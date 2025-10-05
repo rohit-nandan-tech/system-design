@@ -9,7 +9,7 @@ public class ObjectStore {
         return new Adaptor(getPlayerMap());
     }
 
-    Map<MediaPlayerEnum, MediaPlayer> getPlayerMap(){
+    public Map<MediaPlayerEnum, MediaPlayer> getPlayerMap(){
         Map<MediaPlayerEnum, MediaPlayer> mediaPlayerEnumMediaPlayerMap = new HashMap<>();
 
         mediaPlayerEnumMediaPlayerMap.put(MediaPlayerEnum.MP3, new Mp3MediaPlayer());
